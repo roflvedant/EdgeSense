@@ -1,0 +1,83 @@
+{
+  "run_date": "2026-10-22",
+  "evaluation_split": "validation",
+  "test_evaluated": false,
+  "window_seconds": 1,
+  "feature_dimensions": 40,
+  "model": {
+    "precision": 0.7285714285714285,
+    "recall": 0.85,
+    "f1": 0.7846153846153846,
+    "confusion_matrix": [
+      [
+        101,
+        19
+      ],
+      [
+        9,
+        51
+      ]
+    ]
+  },
+  "rms_baseline": {
+    "precision": 0.3409090909090909,
+    "recall": 1.0,
+    "f1": 0.5084745762711864,
+    "confusion_matrix": [
+      [
+        4,
+        116
+      ],
+      [
+        0,
+        60
+      ]
+    ]
+  },
+  "thresholds": {
+    "model": 0.35999999999999993,
+    "rms_baseline": 0.0024190125241875648
+  },
+  "model_size_bytes": 2867,
+  "timing": {
+    "windows": 50,
+    "threads": 1,
+    "warm_feature_and_model_mean_ms": 1.7554939992260188,
+    "warm_feature_and_model_p95_ms": 2.4240299942903216,
+    "warm_feature_and_model_max_ms": 3.1816999544389546,
+    "model_only_mean_ms": 0.34189799916930497,
+    "excludes": "WAV decoding, disk I/O, acquisition, process startup and JIT compilation"
+  },
+  "split_counts": {
+    "train": {
+      "recordings": 84,
+      "normal_recordings": 56,
+      "abnormal_recordings": 28
+    },
+    "validation": {
+      "recordings": 18,
+      "normal_recordings": 12,
+      "abnormal_recordings": 6
+    },
+    "test": {
+      "recordings": 18,
+      "normal_recordings": 12,
+      "abnormal_recordings": 6
+    }
+  },
+  "validation_windows": 180,
+  "training_windows": 840,
+  "environment": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.10",
+    "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "librosa": "0.11.0",
+      "scikit-learn": "1.8.0",
+      "joblib": "1.5.3",
+      "matplotlib": "3.10.8"
+    }
+  }
+}

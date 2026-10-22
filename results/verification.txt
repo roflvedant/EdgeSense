@@ -1,0 +1,5 @@
+﻿PASS: 120 derived WAV hashes match the provenance manifest.
+PASS: source files and original-byte hashes do not cross recording splits.
+PASS: train / validation / test recording counts are 84 / 18 / 18.
+PASS: precision, recall, F1 and confusion matrices recompute from saved predictions.
+PASS: finite 40-dimensional MFCC features; too-short audio rejected.

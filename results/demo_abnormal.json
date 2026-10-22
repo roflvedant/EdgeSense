@@ -1,0 +1,68 @@
+{
+  "audio": "C:\\Users\\singa\\Downloads\\EdgeSense_Midterm(1) (1)\\EdgeSense_Midterm\\data\\abnormal\\00000004.wav",
+  "threshold": 0.35999999999999993,
+  "probability_note": "Model score is not calibrated confidence",
+  "dropped_tail_samples": 0,
+  "windows": [
+    {
+      "window_start_seconds": 0,
+      "prediction": "Abnormal",
+      "abnormal_probability": 0.964066,
+      "warning": "Inspect equipment"
+    },
+    {
+      "window_start_seconds": 1,
+      "prediction": "Abnormal",
+      "abnormal_probability": 0.944231,
+      "warning": "Inspect equipment"
+    },
+    {
+      "window_start_seconds": 2,
+      "prediction": "Abnormal",
+      "abnormal_probability": 0.975952,
+      "warning": "Inspect equipment"
+    },
+    {
+      "window_start_seconds": 3,
+      "prediction": "Abnormal",
+      "abnormal_probability": 0.985112,
+      "warning": "Inspect equipment"
+    },
+    {
+      "window_start_seconds": 4,
+      "prediction": "Normal",
+      "abnormal_probability": 0.151094,
+      "warning": "No warning"
+    },
+    {
+      "window_start_seconds": 5,
+      "prediction": "Normal",
+      "abnormal_probability": 0.16986,
+      "warning": "No warning"
+    },
+    {
+      "window_start_seconds": 6,
+      "prediction": "Abnormal",
+      "abnormal_probability": 0.368802,
+      "warning": "Inspect equipment"
+    },
+    {
+      "window_start_seconds": 7,
+      "prediction": "Abnormal",
+      "abnormal_probability": 0.666036,
+      "warning": "Inspect equipment"
+    },
+    {
+      "window_start_seconds": 8,
+      "prediction": "Abnormal",
+      "abnormal_probability": 0.452003,
+      "warning": "Inspect equipment"
+    },
+    {
+      "window_start_seconds": 9,
+      "prediction": "Abnormal",
+      "abnormal_probability": 0.880572,
+      "warning": "Inspect equipment"
+    }
+  ]
+}
