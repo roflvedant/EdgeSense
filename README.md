@@ -20,7 +20,7 @@ py -3.12 -m venv .venv
 
 The repository includes the selected audio recordings, trained model, and saved results. You do not need to download the dataset or retrain the model to run the demo.
 
-Run all commands below from the repository root, where `requirements.txt` is located. The commands call the virtual environmentâ€™s Python directly, so activation is not required.
+Run all commands below from the repository root, where `requirements.txt` is located. The commands call the virtual environment's Python directly, so activation is not required.
 
 ## Run the demo
 
@@ -62,7 +62,7 @@ Successful checks print `PASS` messages.
 
 ## Save the console output
 
-The committed demo and verification logs were regenerated on Vedantâ€™s Windows laptop using:
+The committed demo and verification logs were regenerated on Vedant's Windows laptop using:
 
 ```powershell
 .\.venv\Scripts\python.exe scripts/demo.py | Out-File -Encoding utf8 results/demo_console.txt
